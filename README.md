@@ -280,5 +280,5 @@ the IR stage assign line numbers once to ensure that everything si consistent. A
       title={View-oriented Conversation Compiler for Agent Trace Analysis},
       author={Lvmin Zhang and Maneesh Agrawala},
       year={2025},
-      url={https://lllyasviel.github.io/VCC-experiments/paper/vcc0331.pdf}
+      url={https://github.com/lllyasviel/VCC}
     }
