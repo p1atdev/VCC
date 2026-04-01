@@ -4,7 +4,7 @@
 
 [English](README.md) | [简体中文](README_cn.md) | [日本語](README_jp.md)
 
-"View-oriented Conversation Compiler for Agent Trace Analysis" の公式実装 ([論文](https://lllyasviel.github.io/VCC-experiments/paper/vcc0331.pdf))
+"View-oriented Conversation Compiler for Agent Trace Analysis" の公式実装 ([論文](https://arxiv.org/abs/2603.29678))
 
 このリポジトリは普段使い用です。論文の学術実験を再現するには [VCC-experiments](https://github.com/lllyasviel/VCC-experiments) を参照してください。
 
@@ -17,7 +17,7 @@ VCC をインストールすると大体こうなります:
 - なんで CC に最初から入ってないのか不思議に思い始める。
 - 自分のマルチレイヤー RAG メモリシステム、自己進化 agent スキルメモリ、その他15個の AGI 発明を削除する - 本当に持ってたらの話だけど...
 
-[論文](https://lllyasviel.github.io/VCC-experiments/paper/vcc0331.pdf)もあって、VCC がとある学術ベンチマークで context learning と agent trace 分析と harness 設計を改善することを示しています。
+[論文](https://arxiv.org/abs/2603.29678)もあって、VCC がとある学術ベンチマークで context learning と agent trace 分析と harness 設計を改善することを示しています。
 
 # インストール
 

@@ -4,7 +4,7 @@
 
 [English](README.md) | [简体中文](README_cn.md) | [日本語](README_jp.md)
 
-"View-oriented Conversation Compiler for Agent Trace Analysis" 的官方实现 ([论文](https://lllyasviel.github.io/VCC-experiments/paper/vcc0331.pdf))
+"View-oriented Conversation Compiler for Agent Trace Analysis" 的官方实现 ([论文](https://arxiv.org/abs/2603.29678))
 
 这个 repo 是日常使用的。要复现论文里的学术实验请看 [VCC-experiments](https://github.com/lllyasviel/VCC-experiments)。
 
@@ -17,7 +17,7 @@ VCC 是一个编译器，把你的对话日志 (Claude Code 的 JSONL) 编译成
 - 你开始想为什么 CC 不自带这个功能。
 - 你删掉了你的多层 RAG 记忆系统、你的自进化 agent 技能记忆、还有另外 15 个 AGI 发明 - 如果你真有这些东西的话...
 
-另外还有一篇[论文](https://lllyasviel.github.io/VCC-experiments/paper/vcc0331.pdf)证明 VCC 在某个学术 benchmark 上能提升 context learning 和 agent trace 分析和 harness 设计。
+另外还有一篇[论文](https://arxiv.org/abs/2603.29678)证明 VCC 在某个学术 benchmark 上能提升 context learning 和 agent trace 分析和 harness 设计。
 
 # 安装
 

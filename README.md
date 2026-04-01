@@ -4,7 +4,7 @@
 
 [English](README.md) | [简体中文](README_cn.md) | [日本語](README_jp.md)
 
-Official implementation of "View-oriented Conversation Compiler for Agent Trace Analysis" ([Paper](https://lllyasviel.github.io/VCC-experiments/paper/vcc0331.pdf))
+Official implementation of "View-oriented Conversation Compiler for Agent Trace Analysis" ([Paper](https://arxiv.org/abs/2603.29678))
 
 This repo is for daily use. To reproduce academic experiments in the paper, see [VCC-experiments](https://github.com/lllyasviel/VCC-experiments).
 
@@ -17,7 +17,7 @@ Things that tend to happen after you install VCC:
 - You start wondering why this wasn't built in CC.
 - You delete your multi-layer RAG memory system, your self-evolving agent skill memory, and 15 other AGI inventions - if you really have those...
 
-There is also a [paper](https://lllyasviel.github.io/VCC-experiments/paper/vcc0331.pdf) showing that VCC improves context learning and agent trace analysis and harness on some academic benchmark.
+There is also a [paper](https://arxiv.org/abs/2603.29678) showing that VCC improves context learning and agent trace analysis and harness on some academic benchmark.
 
 # Install
 
