@@ -12,12 +12,12 @@ Produces per conversation chain:
   .view.txt  View mode (search-focused, only with --grep)
 
 Usage:
-  python VCC.py conversation.jsonl              # .txt + .min.txt
-  python VCC.py conversation.jsonl --grep "kw"  # + .view.txt + stdout search hits
-  python VCC.py conversation.jsonl -t 128       # truncation limit (tokens, default 128)
-  python VCC.py conversation.jsonl -tu 256      # user message truncation limit (default 256)
-  python VCC.py conversation.jsonl -o outdir    # output directory
-  python VCC.py project/*.jsonl --grep "kw"     # multi-file search
+  uv run VCC.py conversation.jsonl              # .txt + .min.txt
+  uv run VCC.py conversation.jsonl --grep "kw"  # + .view.txt + stdout search hits
+  uv run VCC.py conversation.jsonl -t 128       # truncation limit (tokens, default 128)
+  uv run VCC.py conversation.jsonl -tu 256      # user message truncation limit (default 256)
+  uv run VCC.py conversation.jsonl -o outdir    # output directory
+  uv run VCC.py project/*.jsonl --grep "kw"     # multi-file search
 """
 
 import argparse
