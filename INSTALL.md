@@ -2,8 +2,7 @@
 
 ## Requirements
 
-- Python 3.10+
-- PyYAML (`pip install pyyaml`)
+- [uv](https://docs.astral.sh/uv/) (Python 3.10+ and PyYAML are managed automatically)
 
 ## Install
 
