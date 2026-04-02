@@ -1,4 +1,9 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run
+# /// script
+# dependencies = ["pyyaml"]
+# [tool.uv]
+# exclude-newer = "7 days"
+# ///
 """View-oriented Conversation Compiler (VCC) - compile Claude JSONL logs into adaptive views.
 
 Produces per conversation chain:
